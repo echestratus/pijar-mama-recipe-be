@@ -73,7 +73,16 @@ const register = async (req, res, next) => {
 };
 
 const logout = async (req, res, next) => {
-  res.clearCookie("token");
+  // res.clearCookie("token");
+  // set('testtoken', {expires: Date.now()});
+  // res.end()
+  res.cookie("token", '', {
+    httpOnly: true,
+    maxAge: 0,
+    secure: false,
+    path: "/",
+    sameSite: "Lax",
+  });
   response(res, null, 200, "Logout Success");
 };
 

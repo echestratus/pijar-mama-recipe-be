@@ -36,6 +36,11 @@ app.use(
 
 app.use('/v1', mainRoutes)
 
+app.get('/', (req, res, next)=>{
+  res.json({
+    message: 'API for recipe is working'
+  })
+})
 
 app.all('*', (req, res, next)=>{
     next(new createHttpError.NotFound())
