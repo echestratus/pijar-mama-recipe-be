@@ -65,6 +65,7 @@ You can access the API documentation for the **Mama Recipe** project, also autho
 ### Related Project
 
 - [`Front-End Project Repository Link`](https://github.com/echestratus/food-recipe-project)
+- [`Front-End Project Demo Link`](https://food-recipe-farhannurhakim.netlify.app/)
 
 ## Contact
 
