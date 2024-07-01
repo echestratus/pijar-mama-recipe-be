@@ -2,7 +2,7 @@
   <img src="https://github.com/echestratus/food-recipe-project/blob/main/public/mama-recipe-logo.svg" alt="Logo Peworld" width="500"/>
 </div>
 
-# Back-End for [Peworld Project](https://github.com/echestratus/peworld-project)
+# Back-End for [Mama Recipe Project](https://github.com/echestratus/food-recipe-project)
 
 ## Table of Contents
 
